@@ -39,7 +39,7 @@ If you use Gradle, add the following information to the `build.gradle` file.
 def pulsarVersion = '@pulsar:version@'
 
 dependencies {
-    compile group: 'org.apache.pulsar', name: 'pulsar-client', version: pulsarVersion
+    implementation group: 'org.apache.pulsar', name: 'pulsar-client', version: pulsarVersion
 }
 ```
 
